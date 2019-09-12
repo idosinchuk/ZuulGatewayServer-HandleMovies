@@ -1,12 +1,12 @@
-package com.idosinchuk.zuul.filters;
+package com.idosinchuk.microservices.handlemovies.gateway.filters;
 
 import com.netflix.zuul.ZuulFilter;
 
-public class ErrorFilter extends ZuulFilter {
+public class PostFilter extends ZuulFilter {
 
   @Override
   public String filterType() {
-    return "error";
+    return "post";
   }
 
   @Override
@@ -21,7 +21,7 @@ public class ErrorFilter extends ZuulFilter {
 
   @Override
   public Object run() {
-   System.out.println("Inside Route Filter");
+   System.out.println("Inside Response Filter");
 
     return null;
   }

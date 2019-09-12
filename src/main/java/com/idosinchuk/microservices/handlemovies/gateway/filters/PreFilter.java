@@ -1,4 +1,4 @@
-package com.idosinchuk.zuul.filters;
+package com.idosinchuk.microservices.handlemovies.gateway.filters;
 
 import javax.servlet.http.HttpServletRequest;
 

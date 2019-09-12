@@ -1,21 +1,21 @@
-package com.idosinchuk.zuul;
+package com.idosinchuk.microservices.handlemovies.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.annotation.Bean;
 
-import com.idosinchuk.zuul.filters.ErrorFilter;
-import com.idosinchuk.zuul.filters.PostFilter;
-import com.idosinchuk.zuul.filters.PreFilter;
-import com.idosinchuk.zuul.filters.RouteFilter;
+import com.idosinchuk.microservices.handlemovies.gateway.filters.ErrorFilter;
+import com.idosinchuk.microservices.handlemovies.gateway.filters.PostFilter;
+import com.idosinchuk.microservices.handlemovies.gateway.filters.PreFilter;
+import com.idosinchuk.microservices.handlemovies.gateway.filters.RouteFilter;
 
 @SpringBootApplication
 @EnableZuulProxy
-public class ZuulHandlemoviesApplication {
+public class ZuulGatewayServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ZuulHandlemoviesApplication.class, args);
+		SpringApplication.run(ZuulGatewayServerApplication.class, args);
 	}
 
 	@Bean

@@ -1,4 +1,4 @@
-package com.idosinchuk.zuul.tests;
+package com.idosinchuk.microservices.handlemovies.gateway;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ZuulHandlemoviesApplicationTests {
+public class ZuulGatewayServerApplicationTests {
 
 	@Test
 	public void contextLoads() {
