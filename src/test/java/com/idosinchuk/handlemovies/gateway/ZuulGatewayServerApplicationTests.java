@@ -1,4 +1,4 @@
-package com.idosinchuk.microservices.handlemovies.gateway;
+package com.idosinchuk.handlemovies.gateway;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

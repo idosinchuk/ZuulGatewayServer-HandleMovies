@@ -1,12 +1,12 @@
-package com.idosinchuk.microservices.handlemovies.gateway.filters;
+package com.idosinchuk.handlemovies.gateway.filters;
 
 import com.netflix.zuul.ZuulFilter;
 
-public class ErrorFilter extends ZuulFilter {
+public class RouteFilter extends ZuulFilter {
 
   @Override
   public String filterType() {
-    return "error";
+    return "route";
   }
 
   @Override
